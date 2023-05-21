@@ -1,0 +1,187 @@
+
+
+body{
+  margin: 0;
+}
+
+.login{
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.welcome-back-container{
+  background-color: #986060;
+  height: 713px;
+  width: 50%;
+}
+.header-welcome-back{
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  color: white;
+}
+
+#reactlogo{
+  margin-right: 10px;
+}
+
+.main-container{
+  text-align: center;
+}
+
+.main-welcome{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.welcome-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-title{
+  color: white;
+  margin-top: 15px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.sign-in{
+  border: 2px solid white;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  font-weight: 400;
+}
+
+.create-account-main{
+  background-color: whitesmoke;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.create-account{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #986060;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social-sites{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.facebook-logo{
+  height: 30px;
+}
+
+.google-logo{
+  height: 30px;
+}
+
+.linkedin-logo{
+  height: 40px;
+}
+
+.message{
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: #AEAEAE;
+  
+}
+
+.form-main{
+  display: grid;
+  grid-template: 30px 30px 30px / 1fr  ;
+  gap: 15px;
+  margin-top: 20px;
+  
+}
+input{
+  /* position: relative; */
+  background-color: #f5efef;
+  border: none;
+  font-size: 15px;
+  text-indent: 30px;
+  text-align: left;
+}
+
+.nameError{
+  position: absolute;
+  margin-top: 30px;
+  text-align: center;
+  font-size: small;
+  text-indent: 8px;
+  color: red;
+}
+
+.emailError{
+  position: absolute;
+  margin-top: 75px;
+  text-align: center;
+  font-size: small;
+  text-indent: 8px;
+  color: red;
+}
+
+.passwordError{
+  position: absolute;
+  font-size: small;
+  margin-top: 120px;
+  text-indent: 8px;
+  color: red;
+  margin-bottom: 60px;
+}
+
+.user-icon{
+  background-image: url(./assets/user.png);
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 23px;
+  
+}
+
+.email-icon{
+  background-image: url(./assets/email-icon.png);
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 23px;
+}
+
+.password-icon{
+  background-image: url(./assets/password-icon.png);
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 23px;
+}
+
+button{
+  background-color: #986060;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
