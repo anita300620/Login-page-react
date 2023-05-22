@@ -29,11 +29,11 @@ export default function CreateAccount() {
             [field]: value,
         }))
         
-        field === "username" && formDetails.username.length <= 6 ? setNameError("name should at contain 7 characters"): setNameError("");
+        field === "username" && value.length < 6 ? setNameError("name should at contain 6 characters"): setNameError("");
         
-        field ==="email" && formDetails.email.length <= 6 ? setemailError("email should atleast contain 7 characters"): setemailError("")
+        field ==="email" && value.length < 6 ? setemailError("email should atleast contain 6 characters"): setemailError("")
         
-        field === "password" && formDetails.password.length <= 6 ? setpasswordError("password should atleast contain 7 characters") : setpasswordError("");
+        field === "password" && value.length < 6 ? setpasswordError("password should atleast contain 6 characters") : setpasswordError("");
             
         
     }
